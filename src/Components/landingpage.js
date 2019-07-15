@@ -31,10 +31,10 @@ class Landingpage extends Component {
           <Cell col={1}></Cell>
           <Cell col={4} className="about-cell">
             Hello, I am a software developer from Houston, Texas who is currently a computer science student.
-            <p></p>
+            <div style={{ paddingTop: "1em" }}></div>
             In 2018, I graduated with a Bachelors in mathematics and decided to pursue a Masters in computer science with focus on Machine Learning at Vanderbilt University.
-            <p style={{ margin: "auto", paddingTop: "5px" }}>
-            </p>
+            <div style={{ margin: "auto", paddingTop: "1em" }}>
+            </div>
             I am a&nbsp;
               <TextLoop
               interval={5000}
@@ -60,7 +60,7 @@ class Landingpage extends Component {
                 beneficiary of many beautiful friends.
               </span>
             </TextLoop>
-            <p style={{ margin: "auto", paddingTop: "5px" }}>
+            <div style={{ margin: "auto", paddingTop: "5px" }}>
               <TextLoop
                 interval={5000}
                 springConfig={{ stiffness: 30, damping: 10 }}
@@ -110,14 +110,14 @@ class Landingpage extends Component {
                 </span>
 
               </TextLoop>
-            </p>
+            </div>
           </Cell>
           <Cell col={1}></Cell>
         </Grid>
         <div style={{ textAlign: 'center' }}>
-          <a href="https://www.linkedin.com/in/brianyxu" class="social" target="_blank" rel="noopener noreferrer"> <i className="fa fa-2x fa-linkedin-square" aria-hidden="false"></i></a>
-          <a href="mailto:brian.y.xu@vanderbilt.edu" class="social" rel="noopener noreferrer"><i class="fa fa-2x fa-envelope"></i></a>
-          <a href="https://github.com/brianyxu" class="social" target="_blank" rel="noopener noreferrer"><i className="fa fa-2x fa-github-square" aria-hidden="false"></i></a>
+          <a href="https://www.linkedin.com/in/brianyxu" className="social" target="_blank" rel="noopener noreferrer"> <i className="fa fa-2x fa-linkedin-square" aria-hidden="false"></i></a>
+          <a href="mailto:brian.y.xu@vanderbilt.edu" className="social" rel="noopener noreferrer"><i className="fa fa-2x fa-envelope"></i></a>
+          <a href="https://github.com/brianyxu" className="social" target="_blank" rel="noopener noreferrer"><i className="fa fa-2x fa-github-square" aria-hidden="false"></i></a>
         </div>
       </div >
 
