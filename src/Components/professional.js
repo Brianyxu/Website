@@ -8,7 +8,7 @@ class Professional extends Component {
         var sameYear = this.props.startYear === this.props.endYear;
         return (<div>
             <Grid>
-                <Cell col='5'>
+                <Cell col={5}>
                     <div><b>{this.props.name}</b></div>
                     <div>{sameYear && sameMonth ? (
                         this.props.startMonth + " " + this.props.startYear)
@@ -17,7 +17,7 @@ class Professional extends Component {
                     </div>
                     <div>{this.props.city}</div>
                 </Cell>
-                <Cell col='7' style={{ textAlign: 'left' }}>
+                <Cell col={7} style={{ textAlign: 'left' }}>
                     <div><b>{this.props.position}</b></div>
                     <div>{data.map(function (d, idx) { return (<li key={idx}>{d.description}</li>) })}</div>
                 </Cell>

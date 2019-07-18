@@ -9,7 +9,7 @@ class Projects extends Component {
         const sameMonth = this.props.startMonth === this.props.endMonth
         return (
             <Grid>
-                <Cell col='5'>
+                <Cell col={5}>
                     <div><b>{this.props.name}</b></div>
                     <div>{sameYear && sameMonth ? (
                         this.props.startMonth + " " + this.props.startYear)
@@ -17,7 +17,7 @@ class Projects extends Component {
                             : this.props.startMonth + " " + this.props.startYear + "-" + this.props.endMonth + ", " + this.props.endYear}
                     </div>
                 </Cell>
-                <Cell col='7' style={{ textAlign: 'left' }}>
+                <Cell col={7} style={{ textAlign: 'left' }}>
                     <div>{data.map(function (d, idx) { return (<li key={idx}>{d.description}</li>) })}</div>
                 </Cell>
             </Grid>

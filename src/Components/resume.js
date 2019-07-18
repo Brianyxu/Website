@@ -16,111 +16,111 @@ class Resume extends Component {
             <hr></hr>
             <h5 style={{ textAlign: "left" }}>Software Designer</h5>
             <div>
-              <a href="https://www.linkedin.com/in/brianyxu" class="resumesocial" target="_blank" rel="noopener noreferrer"> <i className="fa fa-2x fa-linkedin-square" aria-hidden="false"></i><span class="resumespan">www.linkedin.com/in/brianyxu</span></a>
+              <a href="https://www.linkedin.com/in/brianyxu" className="resumesocial" target="_blank" rel="noopener noreferrer"> <i className="fa fa-2x fa-linkedin-square" aria-hidden="false"></i><span className="resumespan">www.linkedin.com/in/brianyxu</span></a>
             </div>
             <div>
-              <a href="mailto:brian.y.xu@vanderbilt.edu" class="resumesocial" target="_blank" rel="noopener noreferrer"> <i className="fa fa-2x fa-envelope" aria-hidden="false"></i><span class="resumespan">brian.y.xu@vanderbilt.edu</span></a>
+              <a href="mailto:brian.y.xu@vanderbilt.edu" className="resumesocial" target="_blank" rel="noopener noreferrer"> <i className="fa fa-2x fa-envelope" aria-hidden="false"></i><span className="resumespan">brian.y.xu@vanderbilt.edu</span></a>
             </div>
             <div>
-              <a href="https://github.com/brianyxu" class="resumesocial" target="_blank" rel="noopener noreferrer"> <i className="fa fa-2x fa-github-square" aria-hidden="false"></i><span class="resumespan">github.com/brianyxu</span></a>
+              <a href="https://github.com/brianyxu" className="resumesocial" target="_blank" rel="noopener noreferrer"> <i className="fa fa-2x fa-github-square" aria-hidden="false"></i><span className="resumespan">github.com/brianyxu</span></a>
             </div>
-            <div class="resumesocial" target="_blank"> <i className="fa fa-2x fa-phone" aria-hidden="false"></i><span class="resumespan">832-290-9561</span></div>
+            <div className="resumesocial2" target="_blank"> <i className="fa fa-2x fa-phone" aria-hidden="false"></i><span className="resumespan">832-290-9561</span></div>
             <hr style={{ borderTop: '3px solid #e22947' }} />
-            <Button id="skillsbutton" raised accent>Skills</Button>
-            <div class="languagediv">
+            <Button id="skillsbutton" disabled raised accent>Skills</Button>
+            <div className="languagediv">
               <Skills
                 skill="React"
                 progress={35}
                 width='60%'>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills style={{ width: '30%' }}
                 skill="MySQL"
                 progress={40}
                 width='60%'>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="HTML/CSS"
                 progress={45}
                 width='60%'>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="MongoDB"
                 progress={35}
                 width='60%'>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="DynamoDB"
                 progress={55}
                 width='60%'>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="Git"
                 progress={95}
                 width='60%'>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="LaTeX"
                 progress={95}
                 width='60%'>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="Unity3D"
                 progress={35}
                 width='60%'>
               </Skills>
             </div>
-            <Button id="languagesbutton" raised accent>Languages</Button>
-            <div class="languagediv">
+            <Button id="languagesbutton" disabled raised accent>Languages</Button>
+            <div className="languagediv">
               <Skills
                 skill="Python"
                 progress={95}>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="C++"
                 progress={85}>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="C"
                 progress={60}>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="Javascript"
                 progress={50}>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="C#"
                 progress={35}>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="Java"
                 progress={45}>
               </Skills>
             </div>
-            <div class="languagediv">
+            <div className="languagediv">
               <Skills
                 skill="R"
                 progress={20}>

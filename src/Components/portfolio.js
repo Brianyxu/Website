@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from "react-mdl";
+import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu } from "react-mdl";
 class Portfolio extends Component {
 
   render() {
@@ -25,7 +25,6 @@ class Portfolio extends Component {
                   </a>
                 </CardActions>
                 <CardMenu style={{ color: '#fff' }}>
-                  <IconButton name="share" />
                 </CardMenu>
               </Card>
             </div>
@@ -48,7 +47,6 @@ class Portfolio extends Component {
                   </a>
                 </CardActions>
                 <CardMenu style={{ color: '#fff' }}>
-                  <IconButton name="share" />
                 </CardMenu>
               </Card>
             </div>
@@ -68,7 +66,6 @@ class Portfolio extends Component {
                   </a>
                 </CardActions>
                 <CardMenu style={{ color: '#fff' }}>
-                  <IconButton name="share" />
                 </CardMenu>
               </Card>
             </div>
@@ -89,7 +86,6 @@ class Portfolio extends Component {
                   </a>
                 </CardActions>
                 <CardMenu style={{ color: '#fff' }}>
-                  <IconButton name="share" />
                 </CardMenu>
               </Card>
             </div>
@@ -109,7 +105,6 @@ class Portfolio extends Component {
                   </a>
                 </CardActions>
                 <CardMenu style={{ color: '#fff' }}>
-                  <IconButton name="share" />
                 </CardMenu>
               </Card>
             </div>
