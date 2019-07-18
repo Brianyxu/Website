@@ -20,16 +20,12 @@ class App extends Component {
       return (
         <div style={{ height: "700px", position: "relative" }}>
           <Layout style={{ background: "url(" + Cat + ") center / cover" }}>
-            <Header transparent title={<Link to="/"><Button style={{ color: 'white' }}>Home Page</Button></Link>}>
+            <Header transparent >
+            </Header>
+            <Drawer title="Navigation">
               <Navigation>
-                <Link to="/about" > <Button style={{ color: 'white' }}>About</Button></Link>
-                <Link to="/resume" ><Button style={{ color: 'white' }}>Resume</Button></Link>
-                <Link to="/Portfolio" ><Button style={{ color: 'white' }}>Projects</Button></Link>
-                <a href="https://github.com/brianyxu" target='_blank' rel="noopener noreferrer" ><Button style={{ color: 'white' }}>Github</Button></a>
-              </Navigation></Header>
-            <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/" onClick={() => this.close()}>Home Page</Link>}>
-              <Navigation>
-                <Link to="/about" onClick={() => this.close()}>About</Link>
+                <Link to="/" onClick={() => this.close()}>Home Page</Link>
+                <Link to="/about" onClick={() => this.close()}>About Me</Link>
                 <Link to="/resume" onClick={() => this.close()}>Resume</Link>
                 <Link to="/Portfolio" onClick={() => this.close()}>Projects</Link>
                 <a href="https://github.com/brianyxu" target='_blank' rel="noopener noreferrer" onClick={() => this.close()}>Github</a>
@@ -45,18 +41,12 @@ class App extends Component {
     return (
       <div style={{ height: "700px", position: "relative" }}>
         <Layout style={{ background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover' }}>
-          <Header transparent title={<Link style={{ textDecoration: 'none', color: 'white' }} to="/"><Button style={{ color: 'white' }}>Home Page</Button></Link>} style={{ color: "white" }}>
+          <Header transparent >
+          </Header>
+          <Drawer title="Navigation">
             <Navigation>
-
-              <Link to="/about" > <Button style={{ color: 'white' }}>About</Button></Link>
-
-              <Link to="/resume" ><Button style={{ color: 'white' }}>Resume</Button></Link>
-              <Link to="/Portfolio" ><Button style={{ color: 'white' }}>Projects</Button></Link>
-              <a href="https://github.com/brianyxu" target='_blank' rel="noopener noreferrer" ><Button style={{ color: 'white' }}>Github</Button></a>
-            </Navigation></Header>
-          <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/" onClick={() => this.close()}>Home Page</Link>}>
-            <Navigation>
-              <Link to="/about" onClick={() => this.close()}>About</Link>
+              <Link to="/" onClick={() => this.close()}>Home Page</Link>
+              <Link to="/about" onClick={() => this.close()}>About Me</Link>
               <Link to="/resume" onClick={() => this.close()}>Resume</Link>
               <Link to="/Portfolio" onClick={() => this.close()}>Projects</Link>
               <a href="https://github.com/brianyxu" target='_blank' rel="noopener noreferrer" onClick={() => this.close()}>Github</a>
