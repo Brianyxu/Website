@@ -20,8 +20,13 @@ class App extends Component {
       return (
         <div style={{ height: "700px", position: "relative" }}>
           <Layout style={{ background: "url(" + Cat + ") center / cover" }}>
-            <Header transparent >
-            </Header>
+            <Header transparent title={<Link to="/"><Button style={{ color: 'white' }}>Home Page</Button></Link>}>
+              <Navigation>
+                <Link to="/about" > <Button style={{ color: 'white' }}>About</Button></Link>
+                <Link to="/resume" ><Button style={{ color: 'white' }}>Resume</Button></Link>
+                <Link to="/Portfolio" ><Button style={{ color: 'white' }}>Projects</Button></Link>
+                <a href="https://github.com/brianyxu" target='_blank' rel="noopener noreferrer" ><Button style={{ color: 'white' }}>Github</Button></a>
+              </Navigation></Header>
             <Drawer title="Navigation">
               <Navigation>
                 <Link to="/" onClick={() => this.close()}>Home Page</Link>
@@ -41,8 +46,13 @@ class App extends Component {
     return (
       <div style={{ height: "700px", position: "relative" }}>
         <Layout style={{ background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover' }}>
-          <Header transparent >
-          </Header>
+          <Header transparent title={<Link to="/"><Button style={{ color: 'white' }}>Home Page</Button></Link>}>
+            <Navigation>
+              <Link to="/about" > <Button style={{ color: 'white' }}>About</Button></Link>
+              <Link to="/resume" ><Button style={{ color: 'white' }}>Resume</Button></Link>
+              <Link to="/Portfolio" ><Button style={{ color: 'white' }}>Projects</Button></Link>
+              <a href="https://github.com/brianyxu" target='_blank' rel="noopener noreferrer" ><Button style={{ color: 'white' }}>Github</Button></a>
+            </Navigation></Header>
           <Drawer title="Navigation">
             <Navigation>
               <Link to="/" onClick={() => this.close()}>Home Page</Link>
@@ -55,7 +65,7 @@ class App extends Component {
           <Content>
             <Main />
           </Content>
-        </Layout >
+        </Layout>
       </div >
     );
   }

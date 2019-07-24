@@ -14,7 +14,7 @@ class Resume extends Component {
           <Cell className="resume-left-col" col={4}>
             <h3 margin="0px" style={{ textAlign: "center" }}>Brian Xu</h3>
             <hr></hr>
-            <h5 style={{ textAlign: "left" }}>Software Designer</h5>
+            <h5 style={{ textAlign: "left" }}>Software Developer</h5>
             <div>
               <a href="https://www.linkedin.com/in/brianyxu" className="resumesocial" target="_blank" rel="noopener noreferrer"> <i className="fa fa-2x fa-linkedin-square" aria-hidden="false"></i><span className="resumespan">www.linkedin.com/in/brianyxu</span></a>
             </div>
