@@ -24,7 +24,7 @@
 }
 
 .contact {
-  margin: auto;
+  margin: 50px auto;
   background: white;
   border: 2px solid red;
 
@@ -203,4 +203,8 @@
 }
 .test:hover{
   background-color: 'red';
+}
+
+.projects-grid{
+  margin: 50px auto;
 }

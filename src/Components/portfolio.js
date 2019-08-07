@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu } from "react-mdl";
+import Pytorch from "../Pictures/pytorch.png"
+import Flask from "../Pictures/flask.jpg"
+import Unity3D from "../Pictures/Unity3D.jpg"
+import Amplify from "../Pictures/Amplify.png"
+
+
 class Portfolio extends Component {
 
   render() {
@@ -10,7 +16,7 @@ class Portfolio extends Component {
           <Cell col={4}>
             <div className="ProjectsCard">
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/5/55/Unity3D_Logo.jpg) center / cover' }} >Memory Palace</CardTitle>
+                <CardTitle style={{ color: '#fff', height: '176px', background: "url(" + Unity3D + ") center / cover" }} ></CardTitle>
                 <CardText style={{ height: '54px' }}>
                   <b>Memory Palace</b>
                   <br></br>
@@ -33,7 +39,7 @@ class Portfolio extends Component {
           <Cell>
             <div className="ProjectsCard">
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.fullstackpython.com/img/logos/flask.jpg) no-repeat center / contain' }} ></CardTitle>
+                <CardTitle style={{ color: '#fff', height: '176px', background: "url(" + Flask + ") no-repeat center / contain" }} ></CardTitle>
                 <CardText style={{ height: '54px' }}>
                   <b>Portfolize</b>
                   <br></br>
@@ -55,7 +61,7 @@ class Portfolio extends Component {
           <Cell>
             <div className="ProjectsCard">
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://camo.githubusercontent.com/8ec35c70c818d5c0031e347e63ec857f6d57f932/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6177732d6d6f62696c652d6875622d696d616765732f6177732d616d706c6966792d6c6f676f2e706e67) no-repeat center / contain' }} ></CardTitle>
+                <CardTitle style={{ color: '#fff', height: '176px', background: 'url(' + Amplify + ') no-repeat center / contain' }} ></CardTitle>
                 <CardText style={{ height: '54px' }}>
                   <b>Flushr</b>
                   <br></br>
@@ -74,7 +80,8 @@ class Portfolio extends Component {
           <Cell>
             <div className="ProjectsCard">
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                <CardTitle className="norepeat" style={{ color: '#fff', height: '176px', background: 'url(https://www.fullstackpython.com/img/logos/flask.jpg) no-repeat center / contain' }} >
+
+                <CardTitle className="norepeat" style={{ color: '#fff', height: '176px', background: 'url(' + Flask + ') no-repeat center / contain' }} >
                 </CardTitle>
                 <CardText style={{ height: '54px' }}>
                   <b>RoadTrippn</b>
@@ -94,7 +101,7 @@ class Portfolio extends Component {
           <Cell>
             <div className="ProjectsCard">
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                <CardTitle className="norepeat" style={{ color: '#fff', height: '176px', background: 'url(https://pytorch.org/tutorials/_images/pytorch-logo-flat.png) no-repeat center / contain' }} ></CardTitle>
+                <CardTitle className="norepeat" style={{ color: '#fff', height: '176px', background: 'url(' + Pytorch + ') no-repeat center / contain' }} ></CardTitle>
                 <CardText style={{ height: '54px' }}>
                   <b>Reinforcement Learning Pacmen</b>
                   <br></br>

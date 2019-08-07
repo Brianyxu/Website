@@ -9,7 +9,7 @@ import PDF from "../Resume.pdf";
 class Resume extends Component {
   render() {
     return (
-      <div style={{ width: '80%', margin: 'auto' }}>
+      <div style={{ width: '80%', margin: ' 50px auto' }}>
         <Grid>
           <Cell className="resume-left-col" col={4}>
             <h3 margin="0px" style={{ textAlign: "center" }}>Brian Xu</h3>
