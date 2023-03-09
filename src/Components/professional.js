@@ -6,14 +6,15 @@ class Professional extends Component {
         var data = this.props.description;
         var sameMonth = this.props.startMonth === this.props.endMonth;
         var sameYear = this.props.startYear === this.props.endYear;
+        var endYear = this.props.endYear || "";
         return (<div>
             <Grid>
                 <Cell col={5}>
                     <div><b>{this.props.name}</b></div>
                     <div>{sameYear && sameMonth ? (
                         this.props.startMonth + " " + this.props.startYear)
-                        : sameYear ? (this.props.startMonth + "-" + this.props.endMonth + " " + this.props.startYear)
-                            : this.props.startMonth + " " + this.props.startYear + "-" + this.props.endMonth + ", " + this.props.endYear}
+                        : sameYear ? (this.props.startMonth + " - " + this.props.endMonth + " " + this.props.startYear)
+                            : this.props.startMonth + " " + this.props.startYear + " - " + this.props.endMonth + " " + endYear}
                     </div>
                     <div>{this.props.city}</div>
                 </Cell>

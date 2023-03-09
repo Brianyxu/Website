@@ -71,8 +71,8 @@ class Resume extends Component {
             </div>
             <div className="languagediv">
               <Skills
-                skill="LaTeX"
-                progress={95}
+                skill="AWS"
+                progress={80}
                 width='60%'>
               </Skills>
             </div>
@@ -93,31 +93,31 @@ class Resume extends Component {
             <div className="languagediv">
               <Skills
                 skill="C++"
-                progress={85}>
+                progress={40}>
               </Skills>
             </div>
             <div className="languagediv">
               <Skills
                 skill="C"
-                progress={60}>
+                progress={20}>
               </Skills>
             </div>
             <div className="languagediv">
               <Skills
                 skill="Javascript"
-                progress={50}>
+                progress={70}>
               </Skills>
             </div>
             <div className="languagediv">
               <Skills
                 skill="C#"
-                progress={35}>
+                progress={10}>
               </Skills>
             </div>
             <div className="languagediv">
               <Skills
                 skill="Java"
-                progress={45}>
+                progress={80}>
               </Skills>
             </div>
             <div className="languagediv">
@@ -129,7 +129,38 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <a href={PDF} target='_blank' rel="noopener noreferrer">Link to pdf version of resume</a>
-            <h3 style={{ marginBottom: '0px', marginTop: '0px' }}>Education</h3>
+            <h3 style={{ marginTop: '0px', marginBottom: '0px', marginLeft: '10px' }}>Professional</h3>
+            <Professional
+              name="Amazon"
+              city="Nashville, TN"
+              startMonth="August"
+              startYear="2021"
+              endMonth="Current"
+              endYear=""
+              position="Software Engineer"
+              description={[{description: "Lead development, including design reviews, of SWA-Lite framework, to launch Shipping with Amazon into new geos, starting with France and Spain."}, 
+              {description: "Revamped and standardized documentation process in order to streamline new hire onboarding experience."}, 
+              {description: "Collaborated with engineers across 4 different teams on S Team goal to launch fulfillment channel in Turkey, allowing delivery from seller location straight to customer."},
+              {description: "Served as primary on-call for SWA team, resolving 100+ tickets, including some high severity (SEV-2) issues."},
+              {description: "Designed and implemented an onboarding workflow change in the UK to allow shippers to onboard with 2-day delivery (2DD) rates. Created changes to ten different services, released in many deployments to guarantee system stability and allow for easy rollback options. Coordinated deployments with multiple teams in multiple time zones. These changes increased package volume of UK geo by 30%, with a single day peak of 82k 2DD packages."}]}
+            >
+            </Professional>
+            <Professional
+              name="American Express"
+              city="Phoenix, AZ"
+              startMonth="August"
+              startYear="2020"
+              endMonth="July"
+              endYear="2021"
+              position="Software Enginer II"
+              description={[{ description: "Immediately took leadership of a team that focused on building American Express’s intranet URL shortener, dotAmex." },
+              {description: "Directed meetings with product leaders in order to prioritize features that would have the highest impact when delivered."},
+              {description: "Built front end from scratch using React and JavaScript and seamlessly integrated it with the backend for better UX. "},
+              {description: " Delivered RESTful backend APIs that improved overall functionality of dotAmex. Handled requests in the scale of hundreds of thousands a week."}]}
+            >
+            </Professional>
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+            <h3 style={{ marginBottom: '0px', marginTop: '0px', marginLeft: '10px' }}>Education</h3>
             <Education
               startMonth="August"
               startYear={2018}
@@ -151,14 +182,14 @@ class Resume extends Component {
               description={[{ description: "Select mathematics courses include Topology, Modern Algebra, Actuarial Mathematics" }, { description: "Select computer science courses include Algorithms and Data Structures, Virtual Reality, Web Development, Operating Systems, Cryptography" }]}
             ></Education>
             <hr style={{ borderTop: '3px solid #e22947' }} />
-            <h3 style={{ marginBottom: '0px', marginTop: '0px' }}>Projects</h3>
+            <h3 style={{ marginBottom: '0px', marginTop: '0px', marginLeft: '10px' }}>Projects</h3>
             <Projects
               name="Flushr App"
               startMonth="March"
               startYear="2019"
               endMonth="March"
               endYear="2019"
-              description={[{ description: "Built a Yelp-esque application for public bathrooms with a new AWS library known as Amplify anchored by a DynamoDB database in the background." }, { description: "Incorporated support for new user reviews and pictures." }]}
+              description={[{ description: "Built a Yelp-esque application for public bathrooms using AWS Amplify anchored by a DynamoDB database; Assembled front end UI in React.js" }, { description: "Incorporated support for new user reviews and pictures." }]}
             >
             </Projects>
             <Projects
@@ -167,7 +198,7 @@ class Resume extends Component {
               startYear="2019"
               endMonth="February"
               endYear="2019"
-              description={[{ description: "Developed both the front end and the back end for an index-driven investment portfolio application." }, { description: "Optimized a basic time series regression algorithm to incorporate further realism." }]}
+              description={[{ description: "Developed both the front end (HTML/CSS) and the back end (Python) for an index-driven investment portfolio application." }, { description: "Optimized a basic time series regression algorithm to incorporate further realism." }]}
             >
             </Projects>
             <Projects
@@ -185,7 +216,7 @@ class Resume extends Component {
               startYear="2018"
               endMonth="December"
               endYear="2018"
-              description={[{ description: "Developed my machine learning knowledge by construction a policy-gradient based convolutional neural network using PyTorch, a relevant neural network framework in Python." }]}
+              description={[{ description: "Trained an agent using adversarial reinforcement learning in a multi-player Pacman game by constructing a policy-gradient based convolutional neural network in PyTorch." }]}
             >
             </Projects>
             <Projects
@@ -203,11 +234,11 @@ class Resume extends Component {
               startYear="2017"
               endMonth="December"
               endYear="2017"
-              description={[{ description: "Demoed a virtual memory palace utilizing Unity3D as a memory assistance mechanism in a conference." }, { description: "Solved the problem of motion sickness and achieved realistic physics with both held and placed objects. Im-plemented in C#." }]}
+              description={[{ description: "Constructed a Unity3D project of an interactable virtual memory palace as a potential memory assistance mechanism.  Scripted in C#." }, { description: "Tweaked scripts in order to solve the problem of motion sickness and incorporate more realistic physics with both held and placed objects." }]}
             >
             </Projects>
             <hr style={{ borderTop: '3px solid #e22947' }} />
-            <h3 style={{ marginTop: '0px', marginBottom: '0px' }}>Leadership</h3>
+            <h3 style={{ marginTop: '0px', marginBottom: '0px', marginLeft: '10px' }}>Leadership</h3>
             <Professional
               name="Code Ignite Project Leader"
               city="Nashville, TN"
@@ -219,32 +250,18 @@ class Resume extends Component {
             >
             </Professional>
             <hr style={{ borderTop: '3px solid #e22947' }} />
-            <h3 style={{ marginTop: '0px', marginBottom: '0px' }}>Professional</h3>
-            <Professional
-              name="Ascension Education"
-              city="Houston, TX"
-              startMonth="July"
-              startYear="2016"
-              endMonth="July"
-              endYear="2018"
-              position="Helped Create Startup/Teacher"
-              description={[{ description: "Physically built, including installing windows and doors, a tutoring startup geared towards accelerating education of immigrant students relocated to America." }, { description: "Created suitable personalized curriculums for each individual class" }]}
-            >
-            </Professional>
-            <Professional
-              name="Hua Sheng Academy"
-              city="Houston, TX"
-              startMonth="February"
-              startYear="2014"
-              endMonth="March"
-              endYear="2014"
-              position="Mathematics Teacher"
-              description={[{ description: "Applied bilingual skills to guide students to a more comprehensive understanding of fundamental mathematical subjects such as number theory and combinatorics." }]}
-            >
-            </Professional>
-            <hr style={{ borderTop: '3px solid #e22947' }} />
-            <h3 style={{ marginTop: '0px', marginBottom: '0px' }}>Research</h3>
+            <h3 style={{ marginTop: '0px', marginBottom: '0px', marginLeft: '10px' }}>Research</h3>
 
+            <Professional
+              name="Vanderbilt University"
+              city="Nashville, TN"
+              startMonth="August"
+              startYear="2019"
+              endMonth="Present"
+              position="Research Assistant"
+              description={[{ description: "Manufactured and analyzed sheets of nanospheres to measure the impact of imperfections in self-assemblednanocolloids" }]}
+            >
+            </Professional>
             <Professional
               name="Rice University"
               city="Houston, TX"
@@ -254,17 +271,6 @@ class Resume extends Component {
               endYear="2015"
               position="Research Assistant"
               description={[{ description: "Developed and optimized a datamining program that analyzed several metabolic pathways detailed in TCGA database with R and MATLAB to determine practicality of starving cancer cells of L-Glutamine." }]}
-            >
-            </Professional>
-            <Professional
-              name="Texas State University"
-              city="San Marcos, TX"
-              startMonth="May"
-              startYear="2013"
-              endMonth="September"
-              endYear="2013"
-              position="Project Leader"
-              description={[{ description: "Manufactured and analyzed sheets of nanospheres to measure the impact of imperfections in self-assemblednanocolloids" }]}
             >
             </Professional>
 

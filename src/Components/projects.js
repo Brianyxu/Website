@@ -13,8 +13,8 @@ class Projects extends Component {
                     <div><b>{this.props.name}</b></div>
                     <div>{sameYear && sameMonth ? (
                         this.props.startMonth + " " + this.props.startYear)
-                        : sameYear ? (this.props.startMonth + "-" + this.props.endMonth + " " + this.props.startYear)
-                            : this.props.startMonth + " " + this.props.startYear + "-" + this.props.endMonth + ", " + this.props.endYear}
+                        : sameYear ? (this.props.startMonth + " - " + this.props.endMonth + " " + this.props.startYear)
+                            : this.props.startMonth + " " + this.props.startYear + " - " + this.props.endMonth + ", " + this.props.endYear}
                     </div>
                 </Cell>
                 <Cell col={7} style={{ textAlign: 'left' }}>

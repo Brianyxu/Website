@@ -16,7 +16,7 @@ class Portfolio extends Component {
           <Cell col={4}>
             <div className="ProjectsCard">
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                <CardTitle style={{ color: '#fff', height: '176px', background: "url(" + Unity3D + ") center / cover" }} ></CardTitle>
+                <CardTitle style={{ color: '#fff', height: '176px', background: "url(" + Unity3D + ") center / contain" }} ></CardTitle>
                 <CardText style={{ height: '54px' }}>
                   <b>Memory Palace</b>
                   <br></br>
@@ -39,7 +39,7 @@ class Portfolio extends Component {
           <Cell>
             <div className="ProjectsCard">
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                <CardTitle style={{ color: '#fff', height: '176px', background: "url(" + Flask + ") no-repeat center / contain" }} ></CardTitle>
+                <CardTitle style={{ color: '#fff', height: '176px', background: "url(" + Flask + ") no-repeat center / 90%" }} ></CardTitle>
                 <CardText style={{ height: '54px' }}>
                   <b>Portfolize</b>
                   <br></br>
@@ -61,7 +61,7 @@ class Portfolio extends Component {
           <Cell>
             <div className="ProjectsCard">
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                <CardTitle style={{ color: '#fff', height: '176px', background: 'url(' + Amplify + ') no-repeat center / contain' }} ></CardTitle>
+                <CardTitle style={{ color: '#fff', height: '176px', background: 'url(' + Amplify + ') no-repeat center / 95%' }} ></CardTitle>
                 <CardText style={{ height: '54px' }}>
                   <b>Flushr</b>
                   <br></br>
@@ -81,7 +81,7 @@ class Portfolio extends Component {
             <div className="ProjectsCard">
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
 
-                <CardTitle className="norepeat" style={{ color: '#fff', height: '176px', background: 'url(' + Flask + ') no-repeat center / contain' }} >
+                <CardTitle className="norepeat" style={{ color: '#fff', height: '176px', background: 'url(' + Flask + ') no-repeat center / 90%' }} >
                 </CardTitle>
                 <CardText style={{ height: '54px' }}>
                   <b>RoadTrippn</b>
