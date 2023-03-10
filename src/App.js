@@ -23,7 +23,7 @@ class App extends Component {
         <Layout style={{ background: "url(" + Background + ") center / cover" }} >
           <Header style={{ backgroundColor: '#a9b6ca' }} title={<Link to="/"><Button style={{ color: 'white' }}>Home Page</Button></Link>}>
             <Navigation>
-              <a href={PDF} target= '_black' rel= "noopener noreferrer" onClick={() => this.close()}><Button style={{ color: 'white' }}>Resume</Button></a>
+              <a href={PDF} target= '_black' rel= "noopener noreferrer" ><Button style={{ color: 'white' }}>Resume</Button></a>
               <Link to="/Portfolio" ><Button style={{ color: 'white' }}>Portfolio</Button></Link>
               <a href="https://github.com/brianyxu" target='_blank' rel="noopener noreferrer" ><Button style={{ color: 'white' }}>Github</Button></a>
             </Navigation></Header>

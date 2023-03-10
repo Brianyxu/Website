@@ -31,7 +31,7 @@ class Landingpage extends Component {
           <Cell col={4} className="about-cell">
             Hello, I am a software developer from Houston, Texas who is currently a computer science student.
       <div style={{ paddingTop: "1em" }}></div>
-            In 2018, I graduated with a Bachelors in mathematics and am currently pursuing a Masters in computer science with focus on machine earning at Vanderbilt University in Nashville, Tennessee.
+      In 2018, I graduated with a double major in mathematics and computer science and in 2020 I finished my Masters program, also at Vanderbilt University.
       <div style={{ margin: "auto", paddingTop: "1em" }}>
             </div>
             I am a&nbsp;
