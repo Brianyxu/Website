@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://brianyxu.github.io/website",
+  "homepage": "https://Brianyxu.github.io/website",
   "private": true,
   "dependencies": {
     "create-react-app": "^5.0.1",
